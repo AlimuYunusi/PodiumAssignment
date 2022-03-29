@@ -1,0 +1,314 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-28T19:33:25.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User able to click on Chat widget button",
+        "description": "",
+        "id": "user-should-able-to-use-core-flow-for-our-webchat-widget-product;user-able-to-click-on-chat-widget-button",
+        "after": [
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2648000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User able to land on home page \u0027baseUrl\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027baseUrl\u0027",
+                  "offset": 31
+                }
+              ],
+              "location": "com.step_definitions.PodiumStep.userAbleToLandOnHomePageBaseUrl(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8120000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "click on chatWidgetButton",
+            "match": {
+              "location": "com.step_definitions.PodiumStep.clickOnChatWidgetButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8147000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "select one of the locationSuggested",
+            "match": {
+              "location": "com.step_definitions.PodiumStep.selectOneOfTheLocationSuggested()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1128000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I input \"Alim\" as a \"Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alim\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Name\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.step_definitions.PodiumStep.iInputAsA(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I input \"2029973877\" as a \"MobilePhoneNumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2029973877\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"MobilePhoneNumber\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.step_definitions.PodiumStep.iInputAsA(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I input \"Hello\" as a \"SMSFiled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"SMSFiled\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.step_definitions.PodiumStep.iInputAsA(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "Click on sendButton",
+            "match": {
+              "location": "com.step_definitions.PodiumStep.clickOnSendButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "User should able to use core flow for our Webchat widget product",
+    "description": "",
+    "id": "user-should-able-to-use-core-flow-for-our-webchat-widget-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/.feature",
+    "tags": []
+  }
+]
